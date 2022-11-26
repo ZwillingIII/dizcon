@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Gilroy SemiBold';
+    src: url('./../fonts/gilroy/gilroy-semibold.ttf');
+}
+@font-face {
+    font-family: 'Gilroy UltarLight';
+    src: url('./../fonts/gilroy/gilroy-ultralight.ttf');
+}
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('./../fonts/gilroy/gilroy-regular.ttf');
+}
+
+body {
+    font-family: 'Gilroy SemiBold';
+}

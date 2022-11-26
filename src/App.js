@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './template/default/components/header/default/Header';
+import mainStyle from './App.module.css';
+import templFontStyle from './template/default/css/fonts.module.css';
+import templStyle from './template/default/css/style.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={ templStyle.content }>
+      <Header/>
     </div>
   );
 }

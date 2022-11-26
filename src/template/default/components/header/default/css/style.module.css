@@ -1,0 +1,29 @@
+header {
+    padding: 34px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+.logo_text {
+    font-size: 28px;
+    font-weight: 700;
+}
+.menu_desc {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_desc a {
+    font-size: 20px;
+    font-family: 'Gilroy Regular';
+    transition: all 0.5s;
+    line-height: 26px;
+}
+.menu_desc a:hover {
+    font-family: 'Gilroy SemiBold';
+    color: #685ED6;
+}
